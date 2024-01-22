@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary{
+    color: #fd6e0a;
+}
+
+.btn-color{
+    border: 0;
+    border-radius: 10px;
+    background: #fd6e0a;
+    color: whitesmoke;
+    font-weight: 500;
+    height: 64px;
+    font-size: 20px;
+    padding: 20px 35px;
+}
+
+/* Header and Navigation styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+    align-items: center;
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin: 25px;
+}
+.bg-color{
+    background-color: #fff8f3;
+    background-image: url(/Image/header_bg.png), url(/Image/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+/* banner styles */
+.self-intro{
+    display: flex;
+    margin: 0 200px;
+    align-items: center;
+}
+.Author-intro{
+    font-weight: 600;
+    font-size: 35px;
+}
+.Author-name{
+    font-weight: 800;
+    font-size: 60px;
+}
+.developer-goal{
+    text-align: justify;
+    color: gray;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about section styles */
+
+.about-me{
+    margin-top: 130px;
+    padding: 130px 150px;
+    background-color: #fff8f3;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.about-section{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.about-description{
+    text-align: justify;
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about .info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+}
