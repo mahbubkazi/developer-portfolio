@@ -39,7 +39,7 @@ nav li{
 }
 .bg-color{
     background-color: #fff8f3;
-    background-image: url(/Image/header_bg.png), url(/Image/developer.png);
+    background-image: url(../Image/header_bg.png), url(../Image/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
 }
@@ -75,8 +75,7 @@ main{
     padding: 130px 150px;
     background-color: #fff8f3;
     border-radius: 10px;
-    text-align: center;
-    
+    text-align: center;    
 }
 .about-section{
     margin-bottom: 30px;
@@ -101,4 +100,25 @@ main{
     color: #474747;
     font-weight: 700;
     font-size: 20px;
+}
+/* What i Do - Section */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+    text-align: inherit;
 }
