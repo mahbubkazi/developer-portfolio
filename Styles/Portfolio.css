@@ -128,6 +128,7 @@ main{
     text-align: center;
     font-weight: 700;
     font-size: 35px;
+    margin-top: 30px;
 }
 .resume-content{
     display: flex;
@@ -160,4 +161,13 @@ hr{
 .resume-btn{
     margin-top: 20px;
     text-align: center;
+}
+/* contact section */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFFFFF;
+}
+.contact .section-title{
+    text-align: left;
 }
